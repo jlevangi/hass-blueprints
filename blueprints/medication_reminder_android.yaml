@@ -140,7 +140,10 @@ action:
               - title: !input notification_action_skip
                 action: "skip"
             tag: !input input_boolean
-            icon: !input notification_icon
+            channel: "medication_reminder"
+            notification_icon: !input notification_icon
+            importance: high
+            clickAction: "/lovelace/medications"
         - wait_for_trigger:
             platform: event
             event_type: mobile_app_notification_action
