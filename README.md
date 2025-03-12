@@ -2,7 +2,7 @@
 
 My personnal collection of Home-Assistant's blueprints
 
-### Advanced medication reminder
+## Advanced medication reminder
 #### Android version
 
 [medication_reminder_android.yaml](https://raw.githubusercontent.com/jlevangi/hass-blueprints/refs/heads/main/blueprints/medication_reminder_android.yaml)
